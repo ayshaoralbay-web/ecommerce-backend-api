@@ -1,0 +1,28 @@
+# 🛒 E-Commerce RESTful API Service
+
+Полноценный серверный API-сервис для интернет-магазина, построенный на Node.js, Express.js, TypeScript и PostgreSQL.
+
+## 🛠 Технологический стек
+
+- **Runtime:** Node.js
+- **Language:** TypeScript
+- **Framework:** Express.js
+- **Database:** PostgreSQL
+- **Authentication:** JWT (JSON Web Tokens) & Bcrypt
+- **Validation:** Express Validator
+- **Tools:** Postman, Git, ESLint
+
+## 🔥 Ключевой функционал
+
+- **Аутентификация и авторизация:** Безопасная регистрация, хеширование паролей (Bcrypt), JWT-токены и разграничение ролей (`Admin`, `User`).
+- **Архитектура:** Модульная MVC-архитектура для чистой поддержки и масштабируемости кода.
+- **Реляционная база данных:** Проектирование таблиц PostgreSQL со связями `One-to-Many` и `Many-to-Many` (товары, категории, заказы, пользователи).
+- **Валидация и безопасность:** Проверка входящих данных через `express-validator`, защита от некорректных DTO.
+- **Обработка ошибок:** Глобальный middleware для централизованного handling ошибок.
+
+## 🚀 Быстрый запуск
+
+### 1. Клонирование репозитория
+```bash
+git clone [https://github.com/ayshaoralbay-web/ecommerce-backend-api.git](https://github.com/ayshaoralbay-web/ecommerce-backend-api.git)
+cd ecommerce-backend-api
